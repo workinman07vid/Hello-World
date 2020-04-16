@@ -7,6 +7,7 @@ print('we have logged in as {0.user}'.format(client))
 async def on_message(message):
 if message.author == clinet.user:
 return
+
 if message.content.startswith('$Hello'):
-await message channel.send(' Hello!')
-client.run($ python3 Example_bot.py
+await message channel.send('Hello!')
+client.run($ python3 Example_bot.py       
