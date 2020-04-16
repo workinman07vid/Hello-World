@@ -8,5 +8,5 @@ async def on_message(message):
 if message.author == clinet.user:
 return
 if message.content.startswith('$hello'):
-await message channel.send('hello!')
+await message channel.send('Hello!')
 client.run($ python3 Example_bot.py
